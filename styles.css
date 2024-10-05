@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.section-orange {
+    background-color: #FFA500;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-white {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn-orange {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #FF4500;
+}
+
+/* Skill Grid */
+.skill-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background: #fff;
+    border: 2px solid #FFA500;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Project Box */
+.project-box {
+    background-color: white;
+    color: #333;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+/* Footer */
+.footer-orange {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
